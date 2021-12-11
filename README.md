@@ -1,2 +1,2 @@
-# On14-TodasEmTech
-Meu projeto é construir uma api para ajudar minha comunidade 
+# projetolivre-Elcilene-Aragao
+Objetivo do projeto é reunir conceitos estudados durante o curso de back-end 
