@@ -1,6 +1,8 @@
 const mongoose = require('mongoose')
 
 const postoSaudeSchema = new mongoose.Schema({
+    id: mongoose.Schema.Types.ObjectId,
+
     unidade: {
         type: String,
         required: true

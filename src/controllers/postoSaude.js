@@ -15,7 +15,8 @@ const getAll = async (req, res) => {
 const getById = async (req, res) => {
     try {
         const { id } = req.params;
-        const users = await Users.findById(id)
+
+        const users = await unidadeSaude.findById(id)
 
         if (users == undefined || id == " ") {
             return res.status(404).json({
@@ -29,9 +30,6 @@ const getById = async (req, res) => {
 }
 
 //Id
-
-
-
 
 
 const registerpostoSaude = async(req, res) => {
