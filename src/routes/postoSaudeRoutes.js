@@ -5,6 +5,7 @@ const router = express.Router()
 const controllers = require("../controllers/postoSaude")
 
 router.get("/all", controllers.getAll)
+router.get('/id:', controllers.getId)
 router.post('/register', controllers.registerpostoSaude)
 
 

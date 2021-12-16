@@ -11,6 +11,26 @@ const getAll = async (req, res) => {
     }
 }
 
+//Id
+const getId = (req, res) => {
+    const idSolicitado = req.params.id
+ 
+    const found = models.find(estabelecimento => estabelecimento.id == idSolicitado)
+
+    if(found == undefined){
+        res.status(404).send({message: 'Unidade de Saúde não encontrado!'})
+    }
+
+    res.status(200).send(found)
+
+
+}
+
+//Id
+
+
+
+
 
 const registerpostoSaude = async(req, res) => {
     const { unidade, bairro, vagas } = req.body
@@ -41,5 +61,6 @@ res.status(201).json({
 
 module.exports = {
     getAll,
+    getId,
     registerpostoSaude
 }
