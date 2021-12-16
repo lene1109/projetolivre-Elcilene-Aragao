@@ -48,15 +48,18 @@
 
 
   
-## **Tecnologias Utilizadas**
-  <div style="display: inline_block"><br>
-  <img align="center" alt="Rafa-Js" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
 
   
 
  
 </div>
   
+  ## **Tecnologias Utilizadas**
+  <p float="left">
+  <img src="js-file.png" />
+  <img src="nodejs.png" width="100" /> 
+  <img src="gerenciamento-de-banco-de-dados.png" width="100" width="100" />
+</p>
   
   
   
