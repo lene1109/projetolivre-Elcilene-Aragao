@@ -15,7 +15,7 @@
   ## **Origem**  
   <p align="justify">A origem para construção desse projeto, foi a necessidade das pessoas que moram no município de Santo Antônio do Tauá que utilizam o Sistema Unico de Saúde para marcar consultas. Estive observando que as pessoas se deslocam da suas comunidades para ir a unidade básica de saúde, onde muitas vezes é distante de onde residem. Para conseguir uma vaga com o médico especialista chegam a dormir em filas para conseguir uma vaga.
 
-<p align="justify">Observando essa situação está em desenvolvimento um sistema Consulta Sus, onde o usuário vai está marcando sua consulta pelo sistema. 
+
   
   ## **Objetivo**
 <p align="justify">A API ainda está em desenvolvimento, ela permitirá cadastro das unidades de saúde, onde o usuário vai está vendo uma lista dos nomes das Unidades de Saúde e as vagas que estão disponível.
