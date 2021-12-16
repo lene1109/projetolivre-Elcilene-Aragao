@@ -22,13 +22,28 @@
 <p align="justify"> Com esse sistema com certeza vai amenizar os transtornos que a população do município de Santo Antônio do Tauá que fica localizado no nordeste do Estado do Pará enfrentam ao ficar dormindo em filas sem nenhuma codição adequada para marcar apenas uma consulta
   
   
-  ## **Rotas**
+
+## **Rotas**
+
  <ul>
 <li>GET/TODOS</li>
+<p align="justify">The GET route lists all the Health Units that have been registered
 <li>GET/:ID</li>
+<p align="justify">The GET/:ID route lists the Health Units by ID
 <li>POST/</li>
+<p align="justify">The POST route registers the Health Units
 <li>PUT/:ID/</li>
-<li>DELETE/:ID/</li>
+<p align="justify">The PUT route updates the registered Health Units
+
+</ul>
+  
+  ## **Funcionalidades**
+
+<ul>
+<li>Cadastro de Unidades de Saúde</li>
+<li>Listar as Unidades de Saúde e quantas vagas estão disponível</li>
+<li>Marcar consulta</li>
+
 </ul>
 
 
