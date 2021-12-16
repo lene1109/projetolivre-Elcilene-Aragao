@@ -48,6 +48,24 @@
 
 </div>
   
+  
+
+
+## **Tecnologias Utilizadas**
+  <p float="left">
+  <img src="js-file.png" width="100" />
+  <img src="nodejs.png" width="100" /> 
+  <img src="gerenciamento-de-banco-de-dados.png" width="100" />
+</p>
+  
+
+  
+
+
+
+
+
+  
  
 
 
