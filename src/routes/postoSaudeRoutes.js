@@ -8,6 +8,7 @@ router.get("/all", controllers.getAll)
 router.get("/all/:id", controllers.getById);
 router.post('/register', controllers.registerpostoSaude)
 router.delete("/delete/:id", controllers.deleteUnidade)
+router.put("/update/:id", controllers.update)
 
 
 module.exports = router
