@@ -7,6 +7,7 @@ const controllers = require("../controllers/postoSaude")
 router.get("/all", controllers.getAll)
 router.get("/all/:id", controllers.getById);
 router.post('/register', controllers.registerpostoSaude)
+router.delete("/delete/:id", controllers.deleteUnidade)
 
 
 module.exports = router

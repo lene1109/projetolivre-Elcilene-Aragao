@@ -56,11 +56,44 @@ res.status(201).json({
         })
 
     }
+    //
+}
+
+const deleteUnidade = async(req, res) => {
+    try {
+        const unidade = await unidadeSaude.findById(req.params.id);
+
+        if (unidade == null) {
+            res.status(404).json({ message: "Unidade de Saúde não encontrado!" })
+        }
+        if(unidade.termosDeuso == false) {
+            await unidade.delete();
+             res.status(204).json({message:" Seu cadastro foi deletado,erro"});
+        }
+
+        await unidade.delete();
+         res.status(200).json({ message: "Cadastro da Unidade de Saúde  deletado com sucesso!" })
+    } catch (error) {
+         res.status(500).json({ message: error.message })
+    }
+
+
+
+
+    
+
+
+    //
 
 }
 
 module.exports = {
     getAll,
     getById,
-    registerpostoSaude
+    registerpostoSaude,
+    deleteUnidade
+ 
+    
+ 
+    
 }
