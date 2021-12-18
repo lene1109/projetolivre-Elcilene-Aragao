@@ -1,7 +1,7 @@
 const mongoose = require('mongoose')
 
 const marcarConsultaSchema = new mongoose.Schema({
-    id: mongoose.Schema.Types.ObjectId,
+    idconsulta: mongoose.Schema.Types.ObjectId,
 
     Nome: {
         type: String,
@@ -9,12 +9,12 @@ const marcarConsultaSchema = new mongoose.Schema({
     },
     bairro: {
         type: String,
-        unique: true,
+       
         required: true
     },
     telefone:{
-        type: Number,
-        unique: true,
+        type: String,
+        
         required: true
 
     },
