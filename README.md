@@ -34,6 +34,8 @@
 <p align="justify">The POST route registers the Health Units
 <li>PUT/:ID/</li>
 <p align="justify">The PUT route updates the registered Health Units
+  <li>DELETE/</li>
+<p align="justify">Deleta o cadastro pelo ID
 
 </ul>
   
