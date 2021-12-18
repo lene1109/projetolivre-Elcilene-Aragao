@@ -5,6 +5,7 @@ require('dotenv-safe').config()
 const db = require('./database/mongoConfig')
 
 const  postoSaude= require('./routes/postoSaudeRoutes')
+const  consulta= require('./routes/marcarConsultaRoutes')
 
 
 const app = express()
@@ -12,6 +13,9 @@ const app = express()
 app.use(cors())
 app.use(express.json())
 app.use("/postoSaude", postoSaude)
+
+app.use("/consulta",consulta )
+
 
 
 
