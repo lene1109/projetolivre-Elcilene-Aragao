@@ -1,4 +1,5 @@
 const unidadeSaude = require('../models/postoSaudeSchema');
+
 const getAll = async (req, res) => {
     try {
         const postoSaude = await unidadeSaude.find()
@@ -77,7 +78,7 @@ const deleteUnidade = async(req, res) => {
          res.status(500).json({ message: error.message })
     }
 
-    //
+    
 }
 
 const update = async (req, res) => {
@@ -102,14 +103,6 @@ const update = async (req, res) => {
     } catch (error) {
         return res.status(404).send({ message: error.message });
     }
-
-
-    
-
-
-
-    //
-
     
 
 }
